@@ -4,13 +4,13 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAIq8L0-v6he2cJ2pRBvxL3_40GKxaFmVQ",
-  authDomain: "e-commerce-app-fc8f8.firebaseapp.com",
-  projectId: "e-commerce-app-fc8f8",
-  storageBucket: "e-commerce-app-fc8f8.firebasestorage.app",
-  messagingSenderId: "968973967211",
-  appId: "1:968973967211:web:c0b230599f51c6d6c3362e",
-  measurementId: "G-XT49LN4R99"
+  apiKey: "AIzaSyDdvkWcfXeuNvsDJ7D9MbLv3KBsI66lx10",
+  authDomain: "udaysai3204.firebaseapp.com",
+  projectId: "udaysai3204",
+  storageBucket: "udaysai3204.firebasestorage.app",
+  messagingSenderId: "816479225374",
+  appId: "1:816479225374:web:72fb367440085ff06c500f",
+  measurementId: "G-EHDJ08S4KP"
 };
 
 // Initialize Firebase

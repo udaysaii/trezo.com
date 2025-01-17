@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "e-commerce-app-fc8f8"
-  }
+    "default": "e-commerce-app-fc8f8",
+    "udaysai": "udaysai3204"
+  },
+  "targets": {},
+  "etags": {}
 }
