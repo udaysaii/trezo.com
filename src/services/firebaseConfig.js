@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getAuth , signOut } from "firebase/auth"; // Import the getAuth function
+import { getAuth , signOut } from "firebase/auth";
 import { getAnalytics } from "firebase/analytics";
 
 // Your Firebase configuration
