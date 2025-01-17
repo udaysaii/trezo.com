@@ -17,5 +17,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_E_COMMERCE_APP_FC8F8 }}
-          projectId: e-commerce-app-fc8f8
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_UDAYSAI3204 }}
+          projectId: udaysai3204

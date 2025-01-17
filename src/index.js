@@ -1,11 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import AppWrapper from "./App";  // Import AppWrapper instead of App directly
+import AppWrapper from "./App"; // Your main wrapper component
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <AppWrapper />  {/* Use AppWrapper to wrap the App component inside Router */}
-  </React.StrictMode>
-);
+const rootElement = document.getElementById("root");
+if (rootElement) {
+  const root = ReactDOM.createRoot(rootElement);
+  root.render(
+    <React.StrictMode>
+      <AppWrapper /> {/* AppWrapper contains your app's main logic */}
+    </React.StrictMode>
+  );
+} else {
+  console.error("Root element not found in the DOM!");
+}

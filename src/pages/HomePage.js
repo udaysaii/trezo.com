@@ -1,17 +1,16 @@
-import React, { useState } from "react";
-import SearchBar from "../components/SearchBar";
+import React from "react";
 import ProductList from "../components/ProductList";
 
-function HomePage() {
-  const [searchQuery, setSearchQuery] = useState("");
-
+const HomePage = () => {
   return (
-    <div>
-      <h1>Welcome to E-commerce App</h1>
-      <SearchBar setSearchQuery={setSearchQuery} />
-      <ProductList searchQuery={searchQuery} />
+    <div className="homepage">
+      <header>
+        <h1>Welcome to the Best Online Store</h1>
+        <input type="text" placeholder="Search for products..." />
+      </header>
+      <ProductList searchQuery="" />
     </div>
   );
-}
+};
 
 export default HomePage;
